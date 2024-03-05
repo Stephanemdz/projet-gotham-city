@@ -1,11 +1,15 @@
 /* reset css */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap');
   html {     
-    font-size: 62.5%; /* 1rem = 10px, donc 16px = 1.6rem */ }  
+    font-size: 62.5%; /* 1rem = 10px, donc 16px = 1.6rem */ 
+    box-sizing: border-box;
+}  
   body {     
-    font-family: Arial, sans-serif;    
-    font-size: 1.6rem; /* 16px */     
+    font: 1.6rem "Roboto Slab",sans-serif; /* 16px */     
     line-height: 1.5;     
     margin: 0; 
+    letter-spacing: 0.1rem;
+    font-weight: 100;
 }*, *::before,*::after 
 {     
     box-sizing: border-box;     
