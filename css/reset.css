@@ -1,1 +1,28 @@
 /* reset css */
+  html {     
+    font-size: 62.5%; /* 1rem = 10px, donc 16px = 1.6rem */ }  
+  body {     
+    font-family: Arial, sans-serif;    
+    font-size: 1.6rem; /* 16px */     
+    line-height: 1.5;     
+    margin: 0; 
+}*, *::before,*::after 
+{     
+    box-sizing: border-box;     
+    margin: 0;     
+    padding: 0; 
+}  
+h1,
+h2
+,h3
+,h4
+,h5
+,h6
+,p
+,figure
+,blockquote
+,ol
+,ul
+{margin: 0; 
+padding: 0;
+}
