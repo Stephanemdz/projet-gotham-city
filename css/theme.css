@@ -54,7 +54,7 @@ section h2, nav h2 {
     box-shadow: 0 .4rem 0 var(--silver);
 }
 body{
-    background-image:url(https://raw.githubusercontent.com/giusmili/bac-a-sable-gotham/master/asset/cover-batman.jpg);
+    background-image:url(https://www.comicsblog.fr/images/editeur/Arno/Octobre%202022/Quesada-DC-Batman-2.jpeg);
     background-position: center;
     background-repeat: repeat;
     box-shadow: 0 0 var(#0984e3);
@@ -64,6 +64,7 @@ header h1{
     margin: 2rem;
     text-align: center;
 }nav h3{
+    background-image: url(https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/04/Batman-Comic-Covers-Past-Decade.jpg);
     text-align: center;
     background-color: #fafafa;
     margin: 1rem;
