@@ -29,6 +29,7 @@ section p{
 }
 footer{
     text-align: center;
+    background-color: darkseagreen;
 }
 nav ol{
     line-height: 3rem;
@@ -43,6 +44,7 @@ header h1,section h2, nav h2 {
     font-weight: 200;
     line-height: 6.5rem;
     font-size: 4rem;
+    text-align: center;
 }
 section h2, nav h2 {
     text-transform: capitalize;
@@ -56,4 +58,13 @@ body{
     background-position: center;
     background-repeat: repeat;
     box-shadow: 0 0 var(#0984e3);
+}
+header h1{
+    background-color: #6e0909;
+    margin: 2rem;
+    text-align: center;
+}nav h3{
+    text-align: center;
+    background-color: #fafafa;
+    margin: 1rem;
 }
