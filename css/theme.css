@@ -6,6 +6,7 @@
     --silver: #ada9a9ff;
     --jet: #302f2fff;
     --color-title: #fafafa;
+    --bluecolor: #0984e3
 }
 header,
 nav,
@@ -49,4 +50,10 @@ section h2, nav h2 {
     background-color: var(--color-title);
     padding-left: 1rem;
     box-shadow: 0 .4rem 0 var(--silver);
+}
+body{
+    background-image:url(https://raw.githubusercontent.com/giusmili/bac-a-sable-gotham/master/asset/cover-batman.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    box-shadow: 0 0 var(#0984e3);
 }
