@@ -4,6 +4,8 @@
 html {
     font-size: 62.5%;
     /* 1rem = 10px, donc 16px = 1.6rem */
+    background:linear-gradient( to top, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.6) 50%), 
+    url(../asset/cover-batman.jpg)no-repeat fixed center center / cover;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -24,7 +26,8 @@ body {
     margin: 0;
     padding: 0;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
